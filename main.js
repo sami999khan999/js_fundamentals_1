@@ -1,282 +1,174 @@
-// console.log("Hello World");
-// console.log("Ajka amar mon valo");
+// console.log // line (8-15)
+
+// variables //(
+// variable declaration // lene (30-41)
+// )
+
+// variabel naming conventios // (
+// camel case //
+// spatule cases //
+// variable naming limitations //
+// )
+
+// data types //(
+// typeof
+// )
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // console.log
+
+// // console.log -  the console.log() method outputs a message to the web console. the message may be anything.
+
+//============================================================================================================================================//
+
+// console.log("Hello, World");
+// console.log("Wellcome to Jave Script");
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
 
 // // variables
-// // let name = "sami";
-// let number = 80085;
-// let temperature = 32;
-// let devise = "Desktop";
 
-// console.log(number);
+// // in programming, a variable is a value that can change, depending on conditions or on information passed to the program. //
 
-// // variables naming convention (camel case)
-// let herName = "Sakura";
-// let myBykeBrand = "Ultimate Tode";
-// let firstName = "Naruto";
-// let lastName = "Uzumaki";
-// let ramFrequencyInTimeOverTorqueSpeed = 3200;
+//============================================================================================================================================//
 
-// // Only For special case
-// let YOUR_MONITO_PRICE = 15000000;
-// let $unknown_girl_name = "Unknown";
+// // variabel declaration
+
+// let name = "Sami";
+// // double cotation or single cotation is used to decleare a strion. //
+// let number = 10;
+// // numbers does not requeares cotation. //
+// let temperature = 300;
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // we can get the vallew of a variabel by writing its name without cotation in console.log //
+
+// console.log(temperature);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // variabel naming conventios
+
+// // variabel naming conventios - A variable name can only have letters (both uppercase and lowercase letters), digits and underscore. The first letter of a variable should be either a letter or an underscore. There is no rule on how long a variable name (identifier) can be. //
+
+//============================================================================================================================================//
+
+// // camel case
+
+// // camel case - the first letter starts with small letter and the second letter starts with capital letter. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let firstName = "Sami";
+// let lastName = "Khan";
+// let ramFriquencyInTimeOverTorqueSpeed = 32000;
+
+//============================================================================================================================================//
+
+// // spatule cases
+
+// // spatule cases - is java script breakes the generall naming conventions //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let his_name = "Sami";
+// let YOUR_MONITOR_PRICE = 15000;
+// let $her_name = "unknown";
 // let PI = 3.1416;
 
-// // Cant use this kinds of variable
-// // let 10mafia_name = "daku" cant use number in the begening of variable
-// // let bf&gf = "unknown"; cant use (&)
-// // let new-number = 100; cant use (-)
+//============================================================================================================================================//
 
-// // cant use reserved keaywards for variable
-// // let new = 10;
-// // let true = 10;
-// // let false = 20;
-// // let function = 10;
-// // let let = 30;
-// // We shouldent use capital letter in the begening of variable (We will use this kind of name in JS class)
-// // let Person = "Choppar";
-// // We shouldent use a meaningful name
-// // let bike1 = "Dukate"
-// // let bike2 = "Kawasaki"
+// // variable naming limitations
 
-// console.log(herName);
-// console.log(myBykeBrand);
-// console.log(ramFrequencyInTimeOverTorqueSpeed);
-// console.log(devise);
+// // A variable name must start with a letter or an underscore character (_) A variable name cannot start with a digit. A variable name can only contain alpha-numeric characters and underscores ( a-z, A-Z , 0-9 , and _ ) Variable names are case-sensitive (age, Age and AGE are three different variables) //
 
-// /* 
-// Data types: object or primitive data types:
-//   1. number (integer, floating)
-//   2. string (anything inside of "")
-//   3. boolean (True or False)
-//   4. undefined
-//   5. null
-//   6. symbol
-//   7. bigint
-//   value has type, variable dont have data types
-//   */
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let 10name = "Sami" // variable name can't start with number //
+
+// let first&second ="unknown" // can't use & in vairiable name //
+
+// let new-number = 100 // can't use hifen in variabel //
+
+// let new = 10 // can't use keyword (new,true,false,function,let ETC) is variable name //
+
+// let bike1 = "suzuki" // we should use descriptive name //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // data types
+
+// // data types - in javascript, there are five basic, or primitive, types of data. The five most basic types of data are strings, numbers, booleans, undefined, and null. //
+
+//============================================================================================================================================//
+
+// 1. Number type (integer, floating) //
+
+// 2. String type //
+
+// 3. Boolean type - The Boolean type represents a logical entity and is inhabited by two values: true and false. //
+
+// 4. Null type - The Null type is inhabited by exactly one value: null. //
+
+// 5. Undefined type - The Undefined type is inhabited by exactly one value: undefined. //
+
+// 6. Symbol type //
+
+// 7. BigInt type //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let movieRating = 7.8; // number type (floating) //
+// let movieName = "Interstller"; // string type //
+// let bestMovie = true; // boolean type //
+
+//============================================================================================================================================//
+
+// // typeof
+
+// //  typeof - typeof is a JavaScript keyword that will return the type of a variable when you call it. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // let movieRating = 7.8;
-// let movieName = "inception";
-// let isRaining = false;
-// let isSheCure = true;
-// let isMarried = false;
-// let isJavaScriptFun;
+// let movieName = "Interstller";
+// let bestMovie = true;
 
-// console.log(typeof movieRating);
 // console.log(typeof movieName);
-// console.log(typeof isRaining);
-// console.log(typeof isSheCure);
-// console.log(typeof isMarried);
+// console.log(typeof movieRating);
+// console.log(typeof bestMovie);
 
-// // re-assign value or mutate
-// isJavaScriptFun = true;
-// console.log(typeof isJavaScriptFun);
+// // typeof of keyword showes us the type of a data a variable is holding. //
 
-// // this data type is a bug of JS
-// let carSpeed = null;
-// console.log(typeof carSpeed);
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
 
-// // null isn't an object. it's a bug
+// // re-assign
 
-// let age = 30; // declareing a variable using let keyward
-// age = 31; //re-assaign or mutate
+// // re-assign - re-assign consists of assigning a new value for a variable using the = operator. //
 
-// // we cant re-assaign const value. and we haveto set a fixed value or it will count as error
-// const birthYear = 1970;
-// // birthYear = 2000; cant change a const value
+//============================================================================================================================================//
 
-// // never use var it has alot of bugs
-// var planMasterName = "Mr.X";
-// planMasterName = "Mr.Y";
+// let age = 30; // declareing a variable using let keyword. //
 
-// // never use without kyword
-// fatFriendName = "Janina";
-// console.log(fatFriendName);
+// age = 31; // re=assing. //
 
-// const myLocation = "Dhaka";
-// const distance = 234;
-// console.log(myLocation, distance);
-// console.log(YOUR_MONITO_PRICE);
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // math operations
-// const currentYear = 2022;
-// const ageTumpa = currentYear - 1998; //26
-// const ageRahat = currentYear - 1998; //26
+// let age; // it's possible to decleare a variable without a value using a let keyword. //
+// age = 30;
 
-// console.log(ageTumpa, ageRahat);
+// const birthYear // const keyword does not allow us to decleare a variable without a value. //
 
-// console.log(ageTumpa * 2);
-// console.log(ageTumpa / 2);
-// console.log(ageTumpa ** 2); //2 to the power of 24 (24^2)
-
-// const firstName = "Afia Binte";
-// const lastName = "Ayesha";
-
-// console.log(firstName + " " + lastName);
-
-// const bikeBrand = "Yamaha";
-// const bikeModel = "MT15";
-// const fullBikeName = bikeBrand + " " + bikeModel;
-// // console.log(bikeBrand + " " + bikeModel);
-// console.log(fullBikeName);
-
-// // assignment operators
-// let number = 20 + 10; // 30
-// // number = number + 15;
-// number += 15; // 45
-// number -= 10; // 35
-// // number += 1;
-// number++; // adds only 1
-// // number -= 1;
-// number--; // minus only 1
-
-// console.log(number);
-
-// // comaparison operators (>, <, >=, <=)
-// console.log(ageTumpa <= ageRahat);
-
-// // oprator precedence
-// console.log(2022 > 2002 + 16);
-// console.log(20 + (10 + 20) * 2);
-
-// // template literals
-// const nameTumpa = "Tumpa";
-// const tumpaAge = 26;
-// const jobTumpa = "prgrammer";
-// // const bioTumpa =
-// //   "My name is " +
-// //   nameTumpa +
-// //   ", " +
-// //   tumpaAge +
-// //   " years old and I am a " +
-// //   jobTumpa +
-// //   ".";
-
-// const bioTumpa = `My name is ${nameTumpa}, ${tumpaAge} years old and I am a ${jobTumpa}.`; // back tick
-
-// console.log(bioTumpa);
-
-// // console.log("I am Shohan \n\
-// // and \n\
-// // I am a \n\
-// // developer");
-
-// console.log(`
-// Hello
-// I am Shohan
-// and
-// I 
-// am 
-// a
-// programmer
-// `);
-
-// // conditionals or control structure
-// const birthYear = 2012;
-
-// if (birthYear <= 1999) {
-//   console.log("You are a 90's kid! 😍");
-// } else {
-//   console.log("You are not a 90's kid! ☹️");
-// }
-
-// const bikeSpeed = 55;
-
-// if (bikeSpeed > 60) {
-//   console.log("You can not enter the Padma Bridge.");
-// } else {
-//   console.log("You can enter.");
-// }
-
-// const money = 300;
-// const pizzaPrice = 350;
-// const burgerPrice = 289;
-// const milkShake = 80;
-// const singaraPrice = 5;
-
-// if (money > pizzaPrice) {
-//   console.log("Pizza khabo");
-// } else if (money > burgerPrice) {
-//   console.log("Burger khabo");
-// } else if (money > milkShake) {
-//   console.log("Milk shake khabo");
-// } else if (money > singaraPrice) {
-//   console.log("Singara khabo");
-// } else {
-//   console.log("Pani khabo");
-// }
-
-// // grade calculation
-// const marks = 33;
-
-// if (marks >= 80) {
-//   console.log("A+");
-// } else if (marks >= 70) {
-//   console.log("A");
-// } else if (marks >= 60) {
-//   console.log("A-");
-// } else if (marks >= 50) {
-//   console.log("B");
-// } else if (marks >= 40) {
-//   console.log("C");
-// } else if (marks >= 33) {
-//   console.log("Passed");
-// } else {
-//   console.log("Failed");
-// }
-
-// // type conversion (manually) and coercion (automattically)
-// const inputYear = "Shohan";
-// console.log(inputYear + 10 + 20); // string + number + number
-// console.log(inputYear - 10); // string - number
-// //NaN not a number
-
-// console.log(10 + 20);
-// console.log(10 - 20);
-// console.log(10 * 20);
-// console.log(10 / 20);
-// console.log("Baby" + 20);
-// console.log("Baby" - 20);
-// console.log("Baby" * 20);
-// console.log("Baby" / 20);
-// console.log("Baby" + " " + "Babu");
-// console.log("Baby" - " " - "Babu");
-// console.log(200 - "100");
-// console.log(200 * "100");
-// console.log(200 / "100");
-// console.log("200" + 100); // + and string thakle sobkisu string banabe
-
-// const testNumber = "200";
-// console.log(testNumber, typeof testNumber);
-// console.log(Number(testNumber));
-// console.log(Number("500.55"));
-// console.log(Number("Tanha"));
-
-// const testNumber2 = 200;
-// const currentKiGese = false;
-// console.log(testNumber2, typeof testNumber2);
-
-// console.log(String(testNumber2));
-// console.log(typeof currentKiGese);
-// console.log(typeof String(currentKiGese));
-
-// console.log(typeof NaN);
-
-// // game
-// let a = "1" + 1; //11
-// a -= 1;
-
-// let x = 2 + 3 + 4 + "5"; //955
-// x += 5;
-// console.log(x); // 955 100 19 23410 23455
-
-// let y = "10" - "5" - "3" - 2 + "5";
-// y -= 10;
-// console.log(y); //510 -5 13 5
-
-// let b = 1 + 1 - 1 - "1" + "10" - 20;
-// b += "10";
-// b--;
-// console.log(b); //1010 -1
-
-// let n = 1 - "1";
+// const birthYear = 1970 // re-assing does not works with const keyword. //
