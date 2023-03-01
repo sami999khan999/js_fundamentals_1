@@ -1,18 +1,28 @@
-// console.log // line (8-15)
+// console.log // line(8-15)
 
-// variables //(
-// variable declaration // lene (30-41)
-// )
+// variables {
+// variable declaration. // lene(30-41)
+// }
 
-// variabel naming conventios // (
-// camel case //
-// spatule cases //
-// variable naming limitations //
-// )
+// variabel naming conventios. {
+// camel case. // line(64-72)
+// spatule cases. // line(76-85)
+// variable naming limitations. // line(89-103)
+// }
 
-// data types //(
-// typeof
-// )
+// data types {
+// typeof. // line(137-151)
+// }
+
+// re-assign. // line(160-177)
+
+// operator. {
+// math operator. // line(212-232)
+// string operation. // line(236-243)
+// assignment operator. // line(249-262)
+// comparison oparator. // line(266-277)
+// oparator pracidency. // lien(283-288)
+// }
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,7 +32,7 @@
 
 // // console.log -  the console.log() method outputs a message to the web console. the message may be anything.
 
-//============================================================================================================================================//
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // console.log("Hello, World");
 // console.log("Wellcome to Jave Script");
@@ -47,7 +57,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // we can get the vallew of a variabel by writing its name without cotation in console.log //
+// // we can get the vallew of a variabel by writing it's name without cotation in console.log //
 
 // console.log(temperature);
 
@@ -63,7 +73,7 @@
 
 // // camel case
 
-// // camel case - the first letter starts with small letter and the second letter starts with capital letter. //
+// // camel case - if a variable name has more then two woeds then the first word will start with small letter and the socond wors will start with capital letter. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -88,7 +98,7 @@
 
 // // variable naming limitations
 
-// // A variable name must start with a letter or an underscore character (_) A variable name cannot start with a digit. A variable name can only contain alpha-numeric characters and underscores ( a-z, A-Z , 0-9 , and _ ) Variable names are case-sensitive (age, Age and AGE are three different variables) //
+// // A variable name must begin with a letter or an underscore character (_). A variable name cannot start with a digit. A variable name can only contain alpha-numeric characters and underscores ( a-z, A-Z , 0-9 , and _ ). Variable names are case-sensitive (age, Age and AGE are three different variables) //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -162,13 +172,121 @@
 
 // let age = 30; // declareing a variable using let keyword. //
 
-// age = 31; // re=assing. //
+// age = 31; // re-assing. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// let age; // it's possible to decleare a variable without a value using a let keyword. //
+// let age; // it's possible to decleare a variable without a value using let keyword. //
 // age = 30;
 
 // const birthYear // const keyword does not allow us to decleare a variable without a value. //
 
 // const birthYear = 1970 // re-assing does not works with const keyword. //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // operator
+
+// // operator -An operator in programming is a symbol or keyword used to perform specific operations on one or more operands, such as arithmetic or comparison operations.
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// 1. Arithmetic Operators: Used to perform arithmetic operations on numerical values, such as addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). //
+
+// 2. Assignment Operators: Used to assign values to variables, such as simple assignment (=), compound assignment (+=, -=, *=, /=, %=), and bitwise assignment operators. //
+
+// 3. Comparison Operators: Used to compare two values and return a Boolean value of true or false, such as equality (==), strict equality (===), inequality (!=), strict inequality (!==), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=). //
+
+// 4. Logical Operators: Used to combine two or more Boolean expressions and return a Boolean value of true or false, such as AND (&&), OR (||), and NOT (!). //
+
+// 5. Conditional (Ternary) Operator: Used to simplify if/else statements into a single line, such as the syntax: (condition) ? value1 : value2. //
+
+// 6. Type Operators: Used to determine the type of a value or variable, such as typeof and instanceof. //
+
+// 7. Bitwise Operators: Used to perform bitwise operations on numerical values, such as bitwise AND (&), bitwise OR (|), bitwise XOR (^), bitwise NOT (~), left shift (<<), and right shift (>>). //
+
+// 8. Unary Operators: Used to perform operations on a single operand, such as increment (++), decrement (--), logical NOT (!), and bitwise NOT (~). //
+
+// 9. String Operators: Used to concatenate two or more strings using the + operator. //
+
+//============================================================================================================================================//
+
+// // math operator
+
+// // The numbers (in an arithmetic operation) are called operands. //
+
+// // The operation (to be performed between the two operands) is defined by an operator .//
+
+// // (+	Addition)	Adds two numbers together.//
+// // (-	Subtraction)	Subtracts the right number from the left.//
+// // (*	Multiplication)	Multiplies two numbers together.//
+// //	(/ Division)	Divides the left number by the right.//
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const currentYear = 2022;
+// const birthYear = 2003;
+// const age = currentYear - birthYear;
+// console.log(age);
+
+// console.log(age + 10);
+// console.log(age / 5);
+// console.log(age ** 2); // 2 to the power of age (age^2) //
+
+//============================================================================================================================================//
+
+// // string operation - In JavaScript, the "+" operator can be used as a string operator to concatenate (join together) two or more strings. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const firstName = "Sami";
+// const lastName = "Khan";
+
+// console.log(firstName + " " + lastName);
+
+//============================================================================================================================================//
+
+// // assignment operator - An assignment operator in programming is used to assign a value to a variable or expression using the "=" symbol. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let sum = 10 + 20;
+// sum= sum + 10
+// sum += 10;
+// sum -= 10;
+// sum *= 2;
+// sum /= 2;
+// sum++; // adds 1 //
+// sum--; // Subtracts 1 //
+
+// console.log(sum);
+
+//============================================================================================================================================//
+
+// // comparison oparator - A comparison operator in programming is used to compare two values and return a Boolean value of true or false. (<, >, <=, >=) //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const ageSanji = 20;
+// const ageZoro = 21;
+
+// console.log(ageZoro < ageSanji); // false. //
+// console.log(ageZoro > ageSanji);
+// console.log(ageSanji <= ageZoro);
+// console.log(ageSanji >= ageZoro);
+// console.log(ageSanji === ageZoro);
+
+//============================================================================================================================================//
+
+// // oparator pracidency - Operator precedence is the order in which operators are evaluated in an expression. It determines which operators are evaluated first and which ones are evaluated later. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// console.log(2022 > 2000 + 16);
+// console.log(10 + (20 - 15) * 2);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
