@@ -24,6 +24,8 @@
 // oparator pracidency. // lien(283-288)
 // }
 
+//
+
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
@@ -286,6 +288,89 @@
 
 // console.log(2022 > 2000 + 16);
 // console.log(10 + (20 - 15) * 2);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // template literals - Template literals in JavaScript are a way to create strings that can contain placeholders for variables or expressions using backticks (`) and the ${} syntax. They allow for more readable and flexible string formatting. //
+
+//============================================================================================================================================//
+
+// const firstName = "Monkey";
+// const midName = "D";
+// const lastName = "Luffy";
+// const age = 19;
+// const profation = "Pirate";
+
+// console.log(
+//   `${firstName} ${midName} ${lastName} is ${age} years old and he is a profational ${profation}.`
+// );
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// console.log(`
+// Mouley
+// D
+// Luffy
+// Is
+// 19
+// Years
+// Old
+// And
+// He
+// Is
+// A
+// pirate
+// `); // template literals can be used for multy line output. //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // consditions and control structure (if/else, else-if) - if/else and else-if are conditional statements in programming used to execute different code blocks depending on whether a condition is true or false. //
+
+// // if/else: If the condition in the if statement is true, execute the code block inside the if statement. Otherwise, execute the code block inside the else statement. //
+
+// // else-if: If the condition in the if statement is false, check the condition in the else-if statement. If it's true, execute the code block inside the else-if statement. Otherwise, execute the code block inside the else statement.//
+
+//============================================================================================================================================//
+
+// // (if/else) condition //
+
+// const first = 10;
+// const second = 12;
+
+// if (first > second) {
+//   console.log("first is greater then second");
+// } else {
+//   console.log("second is the greater number");
+// }
+
+//============================================================================================================================================//
+
+// // else-if conditon //
+
+// const goldBar = 0;
+// const m4 = 150;
+// const m762 = 160;
+// const akm = 155;
+// const awm = 250;
+// const groza = 200;
+
+// if (goldBar >= m4) {
+//   console.log("I can buy M4");
+// } else if (goldBar >= m762) {
+//   console.log("I can buy M762");
+// } else if (goldBar >= akm) {
+//   console.log("I can buy Akm");
+// } else if (goldBar >= awm) {
+//   console.log("I can buy AWM");
+// } else if (goldBar >= groza) {
+//   console.log("I can buy Groza");
+// } else {
+//   console.log("Don't have enough money");
+// } // this method only produce one output. //
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
