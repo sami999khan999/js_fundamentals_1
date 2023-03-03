@@ -375,3 +375,50 @@
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
+
+// // type conversion and type coercion. //
+
+// // Type conversion is an explicit conversion from one data type to another using built-in methods. For example, the Number() method can be used to convert a string to a number, and the String() method can be used to convert a number to a string. //
+
+// // Type coercion, on the other hand, is an implicit conversion of data types that occurs when an operation is performed on values of different data types. For example, if a number is concatenated with a string using the + operator, the number will be coerced into a string before the concatenation occurs. //
+
+//============================================================================================================================================//
+
+// // type conversion. //
+
+const num = "10";
+
+console.log(typeof num);
+console.log(Number(num));
+
+const test = "DBZ";
+
+console.log(typeof test);
+console.log(Number(test)); // output = NAN (Not a Number)   // string con't be turned into Number. //
+console.log(typeof NAN);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log(typeof 10);
+console.log(typeof String(10));
+console.log(typeof "10");
+console.log(typeof Number("10"));
+
+//============================================================================================================================================//
+
+// // type coercion //
+
+const id = "Luffy";
+console.log(id + 10 + 20);
+console.log(10 + id + 20 + 30);
+console.log(10 + 20 + 5 + id + 10 + 20);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log(10 + 20);
+console.log("10" + 20);
+console.log(10 + "20");
+console.log(10 - 20);
+console.log("10" - 20);
+console.log(10 - "20");
+console.log("Luffy" - 10);
