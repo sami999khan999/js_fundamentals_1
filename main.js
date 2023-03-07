@@ -1,30 +1,70 @@
-// console.log // line(8-15)
+// console.log --
 
 // variables {
-// variable declaration. // lene(30-41)
+// variable declaration --
 // }
 
-// variabel naming conventios. {
-// camel case. // line(64-72)
-// spatule cases. // line(76-85)
-// variable naming limitations. // line(89-103)
+// variabel naming conventios {
+// camel case --
+// spatule cases --
+// variable naming limitations --
 // }
 
 // data types {
-// typeof. // line(137-151)
+// typeof --
 // }
 
-// re-assign. // line(160-177)
+// re-assign --
+
+// operator  {
+// math operator --
+// string operation --
+// assignment operator --
+// comparison oparator --
+// oparator pracidency --
+// }
 
 // operator. {
-// math operator. // line(212-232)
-// string operation. // line(236-243)
-// assignment operator. // line(249-262)
-// comparison oparator. // line(266-277)
-// oparator pracidency. // lien(283-288)
+// math operator --
+// string operation --
+// assignment operator --
+// comparison operator --
+// oparator pracidency --
 // }
 
-//
+// template literals.
+
+// consditions and control structure (if/else, else-if) {
+// (if/else) condition --
+// else-if conditon --
+// }
+
+// type conversion and type coercion {
+// type conversion --
+// type coercion --
+// }
+
+// truthy and falsy value {
+// falsy value --
+// falsy value --
+// }
+
+// equality operator {
+// equal (== or ===) --
+// not equal (!= or !==) --
+// }
+
+// prompt --
+
+// nested condition --
+
+// logical operator --
+
+// switch statement --
+
+// statement and expression --
+
+// ternary operator --
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -215,7 +255,7 @@
 
 //============================================================================================================================================//
 
-// // math operator
+// // math operator //
 
 // // The numbers (in an arithmetic operation) are called operands. //
 
@@ -267,7 +307,7 @@
 
 //============================================================================================================================================//
 
-// // comparison oparator - A comparison operator in programming is used to compare two values and return a Boolean value of true or false. (<, >, <=, >=) //
+// // comparison operator - A comparison operator in programming is used to compare two values and return a Boolean value of true or false. (<, >, <=, >=) //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -328,7 +368,9 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-// // consditions and control structure (if/else, else-if) - if/else and else-if are conditional statements in programming used to execute different code blocks depending on whether a condition is true or false. //
+// // consditions and control structure (if/else, else-if) //
+
+// // if/else and else-if are conditional statements in programming used to execute different code blocks depending on whether a condition is true or false. //
 
 // // if/else: If the condition in the if statement is true, execute the code block inside the if statement. Otherwise, execute the code block inside the else statement. //
 
@@ -386,39 +428,354 @@
 
 // // type conversion. //
 
-const num = "10";
+// const num = "10";
 
-console.log(typeof num);
-console.log(Number(num));
+// console.log(typeof num);
+// console.log(Number(num));
 
-const test = "DBZ";
+// const test = "DBZ";
 
-console.log(typeof test);
-console.log(Number(test)); // output = NAN (Not a Number)   // string con't be turned into Number. //
-console.log(typeof NAN);
+// console.log(typeof test);
+// console.log(Number(test)); // output = NAN (Not a Number)   // string con't be turned into Number. //
+// console.log(typeof NAN);
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(typeof 10);
-console.log(typeof String(10));
-console.log(typeof "10");
-console.log(typeof Number("10"));
+// console.log(typeof 10);
+// console.log(typeof String(10));
+// console.log(typeof "10");
+// console.log(typeof Number("10"));
 
 //============================================================================================================================================//
 
 // // type coercion //
 
-const id = "Luffy";
-console.log(id + 10 + 20);
-console.log(10 + id + 20 + 30);
-console.log(10 + 20 + 5 + id + 10 + 20);
+// const id = "Luffy";
+// console.log(id + 10 + 20);
+// console.log(10 + id + 20 + 30);
+// console.log(10 + 20 + 5 + id + 10 + 20);
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(10 + 20);
-console.log("10" + 20);
-console.log(10 + "20");
-console.log(10 - 20);
-console.log("10" - 20);
-console.log(10 - "20");
-console.log("Luffy" - 10);
+// console.log(10 + 20);
+// console.log("10" + 20);
+// console.log(10 + "20");
+// console.log(10 - 20);
+// console.log("10" - 20);
+// console.log(10 - "20");
+// console.log("Luffy" - 10);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // truthy and falsy value //
+
+// // In JavaScript, every value is either truthy or falsy. A value is considered truthy if it evaluates to true when used in a boolean context, and falsy if it evaluates to false. //
+
+//============================================================================================================================================//
+
+// // falsy value //
+
+// // there are 6 falsu value in jsvascript. //
+
+// 1. false
+// 2. null
+// 3. undefined
+// 4. 0
+// 5. NaN
+// 6. '' (empty string)
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// console.log(Boolean(false));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(NaN));
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+
+//============================================================================================================================================//
+
+// // truthy value //
+
+// // everything except falcy value is trouthy. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// console.log(Boolean(1));
+// console.log(Boolean(" "));
+// console.log(Boolean({}));
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const money = 10;
+
+// if (money >= 10) {
+//   console.log("I have money");
+// } else {
+//   console.log("Not enough money");
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const money = 10;
+
+// if (money) {
+//   console.log("I have money");
+// } else {
+//   console.log("Not enough money");
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // equality operator. //
+
+// // (=) assing operator.
+// // (== or ===) equality operator.
+// // (!= or !==) not equal.
+
+//============================================================================================================================================//
+
+// // equal (== or ===) //
+
+// // The difference between (==) and (===) in JavaScript is that (==) performs type coercion, while (===) does not. (==) converts operands to a common type before comparison, which can lead to unexpected results, especially with falsy values. (===) only returns true if operands are of the same type and have the same value. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const age = "20";
+
+// if (age == 20) {
+//   // js does type coertion if we use (==), not strict //
+//   console.log("You are an adult");
+// } else {
+//   console.log("You are a child");
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const age2 = "20";
+
+// if (age2 === 20) {
+//   // js does not type coercion , strict
+//   console.log("You are a adult");
+// } else {
+//   console.log("You are a child");
+// }
+
+//============================================================================================================================================//
+
+// // not equal (!= or !==) //
+
+// // The main difference between != and !== in JavaScript is that != performs type coercion, while !== does not. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// console.log(1 != "1");
+// console.log(1 !== "1");
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // prompt //
+
+// const number = prompt("Enter a number");
+// console.log(number);
+
+// const number2 = Number(prompt("Enter a number"));
+// console.log(number2);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // nested condition //
+
+// // Nested if...else statements in JavaScript allow us to create more complex conditional statements. //
+
+//============================================================================================================================================//
+
+// const age = 18;
+// const passport = true;
+// const NID = true;
+// const birthReg = true;
+
+// if (age === 18) {
+//   if (NID) {
+//     if (passport) {
+//       console.log(`You are an adult and you can apply for a job`);
+//     }
+//   }
+// } else if (age !== 18) {
+//   if (birthReg) {
+//     console.log(`You are achild, You can't apply for a job.`);
+//   }
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // logical operator //
+
+// // Logical operators are used in JavaScript to combine and manipulate boolean expressions. There are three logical operators in JavaScript: && (logical AND), || (logical OR), and ! (logical NOT). //
+
+// // {&&} (logical AND): Returns true if both operands are true, and false otherwise. //
+
+// // {||} (logical OR): Returns true if at least one operand is true, and false otherwise. //
+
+// // {!} (logical NOT): Returns true if the operand is false, and false if the operand is true. //
+
+//============================================================================================================================================//
+
+// const bounty = 150000000;
+// const ship = 3;
+// const crewmate = 9;
+
+// if ((ship >= 3 && crewmate >= 8) || bounty >= 100000000) {
+//   console.log("Can be a King of the pirets.");
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const money = 200;
+// const time = 5;
+
+// if (money >= 100 || time > 5) {
+//   console.log("Have time to eat 😄.");
+// } else {
+//   console.log("Don't have the time to eat 😥.");
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // leap year //
+
+// const year = 2023;
+
+// if (typeof year == "number") {
+//   if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
+//     console.log(`${year} is a leap year.`);
+//   } else {
+//     console.log(`${year} is not a leap year.`);
+//   }
+// } else {
+//   console.log("Enter valid number");
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // switch statement //
+
+// // In JavaScript, the switch statement is a flow control statement that allows you to execute different blocks of code based on different conditions. //
+
+// // The switch statement evaluates an expression and compares its value to multiple cases. If a match is found, the code block associated with that case is executed. If no match is found, the code block associated with the default case is executed (if one is defined). //
+
+//============================================================================================================================================//
+
+// const day = "Sunday";
+
+// switch (day) {
+//   case "Saturday": // day === Saturday
+//     console.log("Wake up and go to school.");
+//     break;
+//   case "Sunday":
+//     console.log("Wake up and go to school.");
+//     break;
+//   case "Monday":
+//     console.log("No school today");
+//     break;
+//   case "Tuesday":
+//     console.log("Wake up and go to school.");
+//     break;
+//   case "Wednesday":
+//     console.log("Wake up and go to school.");
+//     break;
+//   case "Thursday":
+//     console.log("Wake up and go to school.");
+//     break;
+//   default:
+//     console.log("Put a valid day.");
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const temp = 0;
+
+// switch (temp) {
+//   case -10:
+//     console.log("About to die 🥶.");
+//     break;
+//   case 0:
+//     console.log("Almost too cold");
+//     break;
+//   case 10:
+//     console.log("Very cold");
+//     break;
+//   case 20:
+//     console.log("Not so cold.");
+//     break;
+//   case 30:
+//     console.log("Comfortable");
+//     break;
+//   case 40:
+//     console.log("Hot but not so mutch");
+//     break;
+//   case 50:
+//     console.log("Very hot.");
+//     break;
+//   case 60:
+//     console.log("About to die 🥵");
+//     break;
+//   default:
+//     console.log("I am dead");
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // statement and expression //
+
+// // statement - A statement is a standalone instruction that performs a specific action, like assigning a value to a variable, calling a function, or looping over an array. Statements usually end with a semicolon ; in JavaScript. //
+
+// // expression - An expression, on the other hand, is a combination of values, variables, operators, and functions that evaluates to a single value. Expressions can be used as part of statements, or they can stand alone as a value. //
+
+//============================================================================================================================================//
+
+// if (10 < 12) {
+//   console.log("12 is a greater number.");
+// } else {
+//   console.log("10 is a greater number.");
+// }
+
+// // in this case if and else are the statement and the output is the expression. //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // ternary operator //
+
+// // In JavaScript, the ternary operator is a shorthand way of writing an if-else statement. It is a way to write a conditional expression that evaluates to one of two values depending on whether a condition is true or false. //
+
+//============================================================================================================================================//
+
+// let number = 10;
+
+// number > 10 ? (number += 5) : (number -= 5);
+// console.log(number);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const a = 6;
+// const b = 5;
+// let c;
+
+// a > b ? (c = b - a) : (c = a - b);
+// console.log(c);
