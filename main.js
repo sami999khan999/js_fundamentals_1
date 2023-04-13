@@ -85,7 +85,7 @@
 
 // // variables
 
-// // in programming, a variable is a value that can change, depending on conditions or on information passed to the program. //
+// // variables are used to store data values. The var, let, and const keywords are used to declare variables. Variables can store different data types such as numbers, strings, objects, and functions. JavaScript is a dynamically typed language, meaning the data type of a variable is determined at runtime, and can be changed during the execution of a program. Variables in JavaScript can also have global or local scope, which determines the accessibility of a variable within a program. //
 
 //============================================================================================================================================//
 
@@ -140,7 +140,7 @@
 
 // // variable naming limitations
 
-// // A variable name must begin with a letter or an underscore character (_). A variable name cannot start with a digit. A variable name can only contain alpha-numeric characters and underscores ( a-z, A-Z , 0-9 , and _ ). Variable names are case-sensitive (age, Age and AGE are three different variables) //
+// // variable naming limitations - A variable name must begin with a letter or an underscore character (_). A variable name cannot start with a digit. A variable name can only contain alpha-numeric characters and underscores ( a-z, A-Z , 0-9 , and _ ). Variable names are case-sensitive (age, Age and AGE are three different variables). //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -235,23 +235,23 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// 1. Arithmetic Operators: Used to perform arithmetic operations on numerical values, such as addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). //
+// // 1. Arithmetic Operators: Used to perform arithmetic operations on numerical values, such as addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). //
 
-// 2. Assignment Operators: Used to assign values to variables, such as simple assignment (=), compound assignment (+=, -=, *=, /=, %=), and bitwise assignment operators. //
+// // 2. Assignment Operators: Used to assign values to variables, such as simple assignment (=), compound assignment (+=, -=, *=, /=, %=), and bitwise assignment operators. //
 
-// 3. Comparison Operators: Used to compare two values and return a Boolean value of true or false, such as equality (==), strict equality (===), inequality (!=), strict inequality (!==), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=). //
+// // 3. Comparison Operators: Used to compare two values and return a Boolean value of true or false, such as equality (==), strict equality (===), inequality (!=), strict inequality (!==), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=). //
 
-// 4. Logical Operators: Used to combine two or more Boolean expressions and return a Boolean value of true or false, such as AND (&&), OR (||), and NOT (!). //
+// // 4. Logical Operators: Used to combine two or more Boolean expressions and return a Boolean value of true or false, such as AND (&&), OR (||), and NOT (!). //
 
-// 5. Conditional (Ternary) Operator: Used to simplify if/else statements into a single line, such as the syntax: (condition) ? value1 : value2. //
+// // 5. Conditional (Ternary) Operator: Used to simplify if/else statements into a single line, such as the syntax: (condition) ? value1 : value2. //
 
-// 6. Type Operators: Used to determine the type of a value or variable, such as typeof and instanceof. //
+// // 6. Type Operators: Used to determine the type of a value or variable, such as typeof and instanceof. //
 
-// 7. Bitwise Operators: Used to perform bitwise operations on numerical values, such as bitwise AND (&), bitwise OR (|), bitwise XOR (^), bitwise NOT (~), left shift (<<), and right shift (>>). //
+// // 7. Bitwise Operators: Used to perform bitwise operations on numerical values, such as bitwise AND (&), bitwise OR (|), bitwise XOR (^), bitwise NOT (~), left shift (<<), and right shift (>>). //
 
-// 8. Unary Operators: Used to perform operations on a single operand, such as increment (++), decrement (--), logical NOT (!), and bitwise NOT (~). //
+// // 8. Unary Operators: Used to perform operations on a single operand, such as increment (++), decrement (--), logical NOT (!), and bitwise NOT (~). //
 
-// 9. String Operators: Used to concatenate two or more strings using the + operator. //
+// // 9. String Operators: Used to concatenate two or more strings using the + operator. //
 
 //============================================================================================================================================//
 
@@ -436,7 +436,7 @@
 // const test = "DBZ";
 
 // console.log(typeof test);
-// console.log(Number(test)); // output = NAN (Not a Number)   // string con't be turned into Number. //
+// console.log(Number(test)); // output = NAN (Not a Number)   // string cAn't be turned into Number. //
 // console.log(typeof NAN);
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
@@ -477,14 +477,14 @@
 
 // // falsy value //
 
-// // there are 6 falsu value in jsvascript. //
+// // there are 6 false value in jsvascript. //
 
-// 1. false
-// 2. null
-// 3. undefined
-// 4. 0
-// 5. NaN
-// 6. '' (empty string)
+// // 1. false
+// // 2. null
+// // 3. undefined
+// // 4. 0
+// // 5. NaN
+// // 6. '' (empty string)
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -532,6 +532,12 @@
 //============================================================================================================================================//
 
 // // equality operator. //
+
+// // The equality operator in JavaScript is used to compare two values to see if they are equal or not. There are two types of equality operators in JavaScript: == and ===. //
+
+// // The double equal == operator compares two values for equality after doing type coercion if necessary. This means that if the two values being compared are of different data types, JavaScript will try to convert one of them to match the other before checking for equality. For example, "1" == 1 would evaluate to true because JavaScript would convert the string "1" to the number 1 before checking for equality. //
+
+// // The triple equal === operator, on the other hand, checks for equality without doing any type coercion. It only returns true if the two values being compared are of the same data type and have the same value. For example, "1" === 1 would evaluate to false because the string "1" and the number 1 are of different data types. //
 
 // // (=) assing operator.
 // // (== or ===) equality operator.
@@ -645,7 +651,7 @@
 // const time = 5;
 
 // if (money >= 100 || time > 5) {
-//   console.log("Have time to eat 😄.");
+//   console.log("DO Have time to eat 😄.");
 // } else {
 //   console.log("Don't have the time to eat 😥.");
 // }
